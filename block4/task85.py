@@ -1,12 +1,10 @@
-x = float(input("Введите значение x: "))
+from math import sqrt
+first = int(input('Введите первое число: '))
+second = int(input("Введите второе число: "))
 
 
-if x < -1:
-    y = 1
-elif x > -1:
-    y = x
-else:
-    y = 1
+if sqrt(second) < first:
+    second = second * 5
 
 
-print(f"y({x}) = {y}")
+print(f'Второе число: {second}')
