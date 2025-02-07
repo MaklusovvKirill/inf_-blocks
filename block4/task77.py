@@ -1,11 +1,11 @@
-import math
+from math import sqrt
 
 first = int(input("Введите первое число: "))
 second = int(input("Введите второе число: "))
 
 
 if sqrt(second) < first:
-    second_number *= 5
+    second = second * 5
 
 
-print(f"Второе число: {second}")
+print(f'Второе число {second}')
